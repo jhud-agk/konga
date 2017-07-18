@@ -1,0 +1,378 @@
+body{
+  background-color:#F5F5F5;
+}
+.small-nav{
+       height: 25px;
+       background-color: #fff;
+
+
+}
+.small-nav .pull-right a{
+       list-style-type: none;
+       color: #707070;
+       padding-right: 5px;
+       right: 50px;
+       
+}
+.pull-right {
+   margin-right: 80px;
+}
+.small-nav .pull-right a:hover{
+       list-style-type: none;
+       color: #707070;
+       padding-right: 5px;
+       text-decoration: none;
+}
+.small-nav .pull-right a button{
+      height: 15px;
+      margin-top: 0px;
+      line-height: 50%;
+      padding: 1px;
+      width: 80px;
+      border-radius:1px;
+      background-color: #325D88;
+      border-color:  #325D88;
+      
+}
+.company-logo{
+      margin-top: 20px;
+}
+.category-nav{
+      /* height:50px;
+       background-color:blue;*/
+}
+.product-slide{
+    background-color: #fff; 
+    margin-top: 15px; 
+}
+.deals-of-the-day{
+      
+       background-color:#fff;
+}
+.women{
+       
+       background-color:#fff;
+       margin-top: 40px;
+       
+}
+.women-section{
+  border-top: 2px solid #999999;
+}
+.men{
+       background-color:#fff;
+       margin-top: 40px;      
+}
+.phones{      
+       background-color:#fff;
+       margin-top: 40px;
+}
+.computers{
+      background-color: #fff;
+       margin-top: 40px;
+ }      
+.electronoics{
+    
+       background-color:#fff;
+       margin-top: 40px;
+}
+.home{
+       background-color:#fff;
+       margin-top: 40px;
+}
+.write-up{
+       margin-top: 20px;
+       background-color:#F5F5F5;
+}
+footer{
+       background-color:#464646;
+}
+#side-img{
+  background-image: url("../images/side.png");
+  background-repeat: no-repeat;
+  display: block;
+  height: 110px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+#side-img2{
+  background-image: url("../images/side2.png");
+  background-repeat: no-repeat;
+  display: block;
+  height: 110px;
+  width: 100%;
+   margin-bottom: 10px;
+}
+#side-img3{
+  background-image: url("../images/side3.png");
+  background-repeat: no-repeat;
+  display: block;
+  height: 110px;
+  width: 100%;
+}
+.product_area{
+  margin-left: 30px;
+}
+.women-list ul li{
+  list-style-type: none;
+  font-size: 13px;
+  padding-left: 0px;
+  padding: 4.5px;
+}
+.women-list ul{
+  padding-left: 0px;
+}
+.pls li:not(.women-header){
+  padding: 6.5px;
+}
+#view_all{
+  background-color:#D2D2D2;
+}
+.women-header{
+  background-color: #C5256C;
+  color:#fff;
+}
+.men-header{
+  background-color: #155970;
+  color:#fff;
+}
+.phones-header{
+  background-color: #CD0027;
+  color:#fff;
+}
+.com-header{
+  background-color: #86ACB7;
+  color:#fff;
+}
+.elect-header{
+  background-color: #1885C2;
+  color:#fff;
+}
+.home-header{
+  background-color: #A5B72F;
+  color:#fff;
+}
+.img-responsive{
+  width: 100%;
+  height: auto;
+}
+#woman_txt{
+  font-weight: bolder;
+}
+.leave{
+  margin-top: -5px;
+}
+.leave{
+  padding-right: 0px;
+  width: 202px;
+  margin-top: -6px;
+}
+.product-category{
+  width: 171px;
+  float: left;
+}
+.product-category2{
+  width: 310px;
+  float: left;
+}
+li,p{
+  font-family: 'caviar_dreamsregular';
+}
+.nav-tabs {
+    border-bottom: 1px solid #456C95;
+    border-top: 3px solid #456C95;
+    margin-top: 30px;
+}
+
+.nav-tabs li a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    color: #000;
+    font-size: 13px;
+    font-family: Verdana, sans-serif;   
+}
+.nav-tabs li a:hover {
+    background-color: #456C95;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 0px;
+    border: 1px solid #456C95;
+    transition: 0.05s ease-in-out;
+       
+}
+.input-group .form-control {
+    border: 1.5px solid #456C95;
+    border-radius: 0px;
+}
+.input-group-addon:last-child {
+    background-color: #F9A026;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0px;
+    border:1px solid #F9A026;
+}
+.input-group{
+    border: 1px solid #456C95;
+
+}
+.input-group-addon:first-child {
+    background-color: #fff;
+    font-size: 14px;
+    border:1px solid #456C95;
+    border-right-color: #fff;
+    border-radius: 0px;
+}
+.input-group .form-control:not(:first-child):not(:last-child){
+    border-left-color: #fff;
+}
+#myForm{
+  margin-top: 30px;
+}
+.likes{
+   margin-top: 34px;
+}
+.likes span{
+  font-size: 18px;
+  font-weight: bolder;
+ 
+}
+.dropdown{
+  position:relative;
+}
+.dropdown_content {
+   background-color: #fff;
+   display: none;
+}
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+.dropdown_content ul li:first-child{
+  border-bottom: 1px solid #DEDEDE;
+}
+.dropdown_content ul li{
+  list-style-type: none;
+  padding: 5px;
+}
+.deals-of-the-day a{
+  text-decoration: none;
+  cursor: pointer;
+  color:#000;
+}
+.deals-of-the-day button{
+  height: 20px;
+  width: 100px;
+  line-height: 50%;
+  border-radius: 1px;
+  background-color: #F9A023;
+  font-family: 'caviar_dreamsregular';
+}
+.deals-of-the-day .product_area a{
+   font-family: 'caviar_dreamsregular';
+}
+.leave{
+  margin-left: -15px;
+}
+#view_all{
+  margin-left: -10px;
+}
+.buying_konga{
+  border-bottom:1px solid #808080;
+  margin-top: 20px;
+}
+.buying_konga li{
+   display: inline-block;
+   list-style-type:none;
+   padding: 1px;
+   color: #808080;
+}
+.buying_konga ul li:first-child{
+  font-weight: bolder;
+  font-size: 15px;
+  color: #fff;
+}
+.contact_konga li{
+  display: inline-block;
+   list-style-type:none;
+   padding: 1px;
+   color: #808080;
+}
+.contact_konga ul li:first-child{
+  font-weight: bolder;
+  font-size: 15px;
+  color: #fff;
+}
+.contact_konga{
+  border-bottom:1px solid #808080;
+  margin-top: 5px;
+}
+.Payments li{
+   display: inline-block;
+   list-style-type:none;
+   padding: 1px;
+   color: #808080;
+
+}
+.Payments ul li:first-child{
+  font-weight: bolder;
+  font-size: 15px;
+  color: #fff;
+}
+.payments ul li a{
+  background: url(../images/header-footer-sprite.png.jpg);
+  background-position: -10px -4px;
+  width: 40px;
+  height: 23px;
+  display: block;
+}
+.Payments{
+  border-bottom:1px solid #808080;
+  line-height: 50%;
+}
+.logistic li{
+   display: inline-block;
+   list-style-type:none;
+   padding: 1px;
+   color: #808080;
+
+}
+.logistic ul li:first-child{
+  font-weight: bolder;
+  font-size: 15px;
+  color: #fff;
+}
+.badges li{
+   display: inline-block;
+   list-style-type:none;
+   padding: 1px;
+   color: #808080;
+
+}
+.android li{
+  display: inline-block;
+  list-style-type: none;
+  color: #808080; 
+}
+.newsletter li{
+  list-style-type: none;
+  color: #fff;
+}
+.newsletter form input{
+  width: 180px;
+  height: 40px;
+}
+.newsletter form button{
+  height: 40px;
+  border-radius: 0px;
+  width: 90px;
+  color: #808080;
+
+}
+.shopEasy{
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: bolder;
+  color: #fff;
+}
+.newsletter.same{
+  color: #fff;
+}
